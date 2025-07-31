@@ -1,7 +1,7 @@
 //Printing/Output in dart:
 
 void main(){
-    fc2(fc);
+    caller(callback);
 }
 
 //Passing arguments in dart:
@@ -24,12 +24,20 @@ void args(x,y){
 
 //Functional callbacks
 
-void fc(){
+// void fc(){
+//   print('hi');
+// }
+
+// void fc2(x){
+//   print('hello');
+//   x();
+// }
+
+void callback(){
   print('hi');
 }
 
-void fc2(x){
+void caller(x){
   print('hello');
   x();
 }
-
