@@ -33,11 +33,19 @@ void args(x,y){
 //   x();
 // }
 
-void callback(){
-  print('hi');
-}
+// void callback(){
+//   print('hi');
+// }
 
-void caller(x){
-  print('hello');
-  x();
+// void caller(x){
+//   print('hello');
+//   x();
+// }
+
+
+void callback(){
+  print("called");
+}
+void caller(c){
+  c();
 }
